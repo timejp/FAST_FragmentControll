@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.timejh.fragmentcontrol.DetailFragment">
+    tools:context="com.timejh.fragmentcontrol.ListFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <Button
-        android:text="GoList"
+        android:text="GoDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
@@ -15,13 +15,13 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DetailFragment"
-        android:id="@+id/textView"
+        android:text="ListFragment"
+        android:layout_marginBottom="51dp"
         android:textSize="30sp"
         android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="43dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
