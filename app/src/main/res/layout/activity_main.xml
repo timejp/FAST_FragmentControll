@@ -10,11 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.timejh.fragmentcontrol.MainActivity">
 
-    <fragment
+    <FrameLayout
         android:layout_width="match_parent"
+        android:name="com.timejh.fragmentcontrol.BlankFragment"
         android:id="@+id/fragment"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/fragment_blank" />
 </RelativeLayout>
