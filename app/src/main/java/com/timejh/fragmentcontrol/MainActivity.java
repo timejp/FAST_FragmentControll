@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         //2. fragment를 layout 에 add해준다.
         transaction.add(R.id.fragment, listFragment);
         //3. 트랜잭션 전체를 stack에 저장
-        transaction.addToBackStack(null);
+//        transaction.addToBackStack(null);
         //4. commit
         transaction.commit();
     }
